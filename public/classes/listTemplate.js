@@ -2,10 +2,6 @@ export class ListTemplate {
     constructor(container) {
         this.container = container;
     }
-    // public render(item: hasFormatter, heading: string, position: pos) {
-    //     const li = this.createLI(item, heading);
-    //     this.addItem(position, li);
-    // }
     render(options) {
         const { item, heading, position } = options;
         const li = this.createLI(item, heading);

@@ -6,10 +6,6 @@ export class ListTemplate {
         private readonly container: HTMLUListElement
     ) { }
 
-    // public render(item: hasFormatter, heading: string, position: pos) {
-    //     const li = this.createLI(item, heading);
-    //     this.addItem(position, li);
-    // }
 
     public render(options: {item: hasFormatter, heading: string, position: pos}) {
         const {item, heading, position} = options
